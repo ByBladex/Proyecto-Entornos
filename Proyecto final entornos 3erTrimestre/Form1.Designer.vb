@@ -24,49 +24,26 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btnJugar = New System.Windows.Forms.Button()
-        Me.imgRuleta = New System.Windows.Forms.PictureBox()
-        Me.imgFlecha = New System.Windows.Forms.PictureBox()
         Me.imgLogo = New System.Windows.Forms.PictureBox()
-        Me.txtApuesta = New System.Windows.Forms.TextBox()
-        Me.btnClear = New System.Windows.Forms.Button()
         Me.lbltxtPuntos = New System.Windows.Forms.Label()
         Me.lblPuntos = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.imgRuleta, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgFlecha, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.btnRecargar = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.lbl1 = New System.Windows.Forms.Label()
+        Me.lbl2 = New System.Windows.Forms.Label()
+        Me.lbl3 = New System.Windows.Forms.Label()
         CType(Me.imgLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnJugar
         '
-        Me.btnJugar.Location = New System.Drawing.Point(409, 461)
+        Me.btnJugar.Location = New System.Drawing.Point(254, 397)
         Me.btnJugar.Name = "btnJugar"
-        Me.btnJugar.Size = New System.Drawing.Size(99, 35)
+        Me.btnJugar.Size = New System.Drawing.Size(94, 36)
         Me.btnJugar.TabIndex = 2
         Me.btnJugar.Text = "Jugar"
         Me.btnJugar.UseVisualStyleBackColor = True
-        '
-        'imgRuleta
-        '
-        Me.imgRuleta.BackColor = System.Drawing.Color.Transparent
-        Me.imgRuleta.Image = CType(resources.GetObject("imgRuleta.Image"), System.Drawing.Image)
-        Me.imgRuleta.Location = New System.Drawing.Point(263, 182)
-        Me.imgRuleta.Name = "imgRuleta"
-        Me.imgRuleta.Size = New System.Drawing.Size(396, 273)
-        Me.imgRuleta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.imgRuleta.TabIndex = 3
-        Me.imgRuleta.TabStop = False
-        '
-        'imgFlecha
-        '
-        Me.imgFlecha.BackColor = System.Drawing.Color.Transparent
-        Me.imgFlecha.Image = CType(resources.GetObject("imgFlecha.Image"), System.Drawing.Image)
-        Me.imgFlecha.Location = New System.Drawing.Point(431, 173)
-        Me.imgFlecha.Name = "imgFlecha"
-        Me.imgFlecha.Size = New System.Drawing.Size(59, 29)
-        Me.imgFlecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.imgFlecha.TabIndex = 4
-        Me.imgFlecha.TabStop = False
         '
         'imgLogo
         '
@@ -78,22 +55,6 @@ Partial Class Form1
         Me.imgLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.imgLogo.TabIndex = 5
         Me.imgLogo.TabStop = False
-        '
-        'txtApuesta
-        '
-        Me.txtApuesta.Location = New System.Drawing.Point(39, 299)
-        Me.txtApuesta.Name = "txtApuesta"
-        Me.txtApuesta.Size = New System.Drawing.Size(110, 20)
-        Me.txtApuesta.TabIndex = 6
-        '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(155, 297)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 23)
-        Me.btnClear.TabIndex = 7
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
         '
         'lbltxtPuntos
         '
@@ -118,14 +79,49 @@ Partial Class Form1
         Me.lblPuntos.Size = New System.Drawing.Size(0, 20)
         Me.lblPuntos.TabIndex = 9
         '
-        'Button1
+        'btnRecargar
         '
-        Me.Button1.Location = New System.Drawing.Point(543, 144)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 10
-        Me.Button1.Text = "Recargar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnRecargar.Location = New System.Drawing.Point(543, 144)
+        Me.btnRecargar.Name = "btnRecargar"
+        Me.btnRecargar.Size = New System.Drawing.Size(75, 23)
+        Me.btnRecargar.TabIndex = 10
+        Me.btnRecargar.Text = "Recargar"
+        Me.btnRecargar.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(103, 193)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(415, 240)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
+        '
+        'lbl1
+        '
+        Me.lbl1.Location = New System.Drawing.Point(136, 256)
+        Me.lbl1.Name = "lbl1"
+        Me.lbl1.Size = New System.Drawing.Size(97, 120)
+        Me.lbl1.TabIndex = 12
+        Me.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lbl2
+        '
+        Me.lbl2.Location = New System.Drawing.Point(251, 256)
+        Me.lbl2.Name = "lbl2"
+        Me.lbl2.Size = New System.Drawing.Size(97, 120)
+        Me.lbl2.TabIndex = 13
+        Me.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'lbl3
+        '
+        Me.lbl3.Location = New System.Drawing.Point(365, 256)
+        Me.lbl3.Name = "lbl3"
+        Me.lbl3.Size = New System.Drawing.Size(97, 120)
+        Me.lbl3.TabIndex = 14
+        Me.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
@@ -134,31 +130,30 @@ Partial Class Form1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(617, 520)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.lbl3)
+        Me.Controls.Add(Me.lbl2)
+        Me.Controls.Add(Me.lbl1)
+        Me.Controls.Add(Me.btnRecargar)
         Me.Controls.Add(Me.lblPuntos)
         Me.Controls.Add(Me.lbltxtPuntos)
-        Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.txtApuesta)
         Me.Controls.Add(Me.imgLogo)
-        Me.Controls.Add(Me.imgFlecha)
-        Me.Controls.Add(Me.imgRuleta)
         Me.Controls.Add(Me.btnJugar)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.imgRuleta, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgFlecha, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.imgLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnJugar As Button
-    Friend WithEvents imgRuleta As PictureBox
-    Friend WithEvents imgFlecha As PictureBox
     Friend WithEvents imgLogo As PictureBox
-    Friend WithEvents txtApuesta As TextBox
-    Friend WithEvents btnClear As Button
     Friend WithEvents lbltxtPuntos As Label
     Friend WithEvents lblPuntos As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnRecargar As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents lbl1 As Label
+    Friend WithEvents lbl2 As Label
+    Friend WithEvents lbl3 As Label
 End Class
