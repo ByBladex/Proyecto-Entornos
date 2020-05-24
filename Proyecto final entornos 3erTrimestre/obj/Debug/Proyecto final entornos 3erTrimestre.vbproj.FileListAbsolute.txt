@@ -1,0 +1,11 @@
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\bin\Debug\Proyecto final entornos 3erTrimestre.exe.config
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\bin\Debug\Proyecto final entornos 3erTrimestre.exe
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\bin\Debug\Proyecto final entornos 3erTrimestre.pdb
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\bin\Debug\Proyecto final entornos 3erTrimestre.xml
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\obj\Debug\Proyecto final entornos 3erTrimestre.vbprojAssemblyReference.cache
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\obj\Debug\Proyecto_final_entornos_3erTrimestre.Form1.resources
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\obj\Debug\Proyecto_final_entornos_3erTrimestre.Resources.resources
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\obj\Debug\Proyecto final entornos 3erTrimestre.vbproj.GenerateResource.cache
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\obj\Debug\Proyecto final entornos 3erTrimestre.exe
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\obj\Debug\Proyecto final entornos 3erTrimestre.xml
+D:\CUARENTENA\Entornos\3er Trimestre\Proyecto final entornos 3erTrimestre\Proyecto final entornos 3erTrimestre\obj\Debug\Proyecto final entornos 3erTrimestre.pdb
