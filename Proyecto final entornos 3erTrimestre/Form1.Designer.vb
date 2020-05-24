@@ -101,6 +101,8 @@ Partial Class Form1
         '
         'lbl1
         '
+        Me.lbl1.BackColor = System.Drawing.Color.PaleGoldenrod
+        Me.lbl1.Font = New System.Drawing.Font("Impact", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl1.Location = New System.Drawing.Point(136, 256)
         Me.lbl1.Name = "lbl1"
         Me.lbl1.Size = New System.Drawing.Size(97, 120)
@@ -109,6 +111,8 @@ Partial Class Form1
         '
         'lbl2
         '
+        Me.lbl2.BackColor = System.Drawing.Color.PaleGoldenrod
+        Me.lbl2.Font = New System.Drawing.Font("Impact", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl2.Location = New System.Drawing.Point(251, 256)
         Me.lbl2.Name = "lbl2"
         Me.lbl2.Size = New System.Drawing.Size(97, 120)
@@ -117,6 +121,8 @@ Partial Class Form1
         '
         'lbl3
         '
+        Me.lbl3.BackColor = System.Drawing.Color.PaleGoldenrod
+        Me.lbl3.Font = New System.Drawing.Font("Impact", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl3.Location = New System.Drawing.Point(365, 256)
         Me.lbl3.Name = "lbl3"
         Me.lbl3.Size = New System.Drawing.Size(97, 120)
