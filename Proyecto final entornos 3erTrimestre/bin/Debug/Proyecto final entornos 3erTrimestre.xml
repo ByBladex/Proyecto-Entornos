@@ -22,5 +22,26 @@ Proyecto final entornos 3erTrimestre
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="M:Proyecto_final_entornos_3erTrimestre.Form1.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ Método que carga el formulario
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Proyecto_final_entornos_3erTrimestre.Form1.btnRecargar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Método que te recarga los puntos al hacerle click al botón recargar
+ </summary>
+ <param name="sender">El objeto donde se ha producido el evento</param>
+ <param name="e">El evento que se ha producido</param>
+</member>
+<member name="M:Proyecto_final_entornos_3erTrimestre.Form1.btnJugar_Click(System.Object,System.EventArgs)">
+ <summary>
+ Método que te resta 1 punto en cada jugada y la tragaperras saca 3 numeros aleatorios, si son los tres iguales te da un premio y si son los tres un 7 un premio mayor
+ </summary>
+ <param name="sender">El objeto donde se ha producido el evento</param>
+ <param name="e">El evento que se ha producido</param>
+</member>
 </members>
 </doc>
