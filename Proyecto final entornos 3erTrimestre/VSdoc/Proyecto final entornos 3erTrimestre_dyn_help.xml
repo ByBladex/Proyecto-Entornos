@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="Proyecto final entornos 3erTrimestre" Title="Proyecto final entornos 3erTrimestre Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto_final_entornos_3erTrimestre.Form1.Dispose" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Proyecto final entornos 3erTrimestre.chm::/topic_0000000000000001_overloads--.html" LinkGroup="Proyecto final entornos 3erTrimestre">Dispose Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto_final_entornos_3erTrimestre.Form1" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Proyecto final entornos 3erTrimestre.chm::/topic_0000000000000000.html" LinkGroup="Proyecto final entornos 3erTrimestre">Form1 Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto final entornos 3erTrimestre Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Proyecto final entornos 3erTrimestre.chm::/topic_0000000000000004.html" LinkGroup="Proyecto final entornos 3erTrimestre">Proyecto final entornos 3erTrimestre Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Proyecto_final_entornos_3erTrimestre" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:Proyecto final entornos 3erTrimestre.chm::/topic_0000000000000006.html" LinkGroup="Proyecto final entornos 3erTrimestre">Proyecto_final_entornos_3erTrimestre Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+
